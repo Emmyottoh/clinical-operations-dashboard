@@ -1,3 +1,5 @@
+<img width="1320" height="365" alt="Clinical_Hospital_Dashboard_2" src="https://github.com/user-attachments/assets/969cc7aa-8680-4e90-bf4a-6091d4a94340" />
+<img width="1322" height="557" alt="Clinical_Hospital_Dashboard_1" src="https://github.com/user-attachments/assets/449e6760-a773-4d2a-aada-3892bfd1d797" />
 # 🏥 Clinical & Hospital Operations Executive Insights Report
 
 ## 📌 Executive Summary
