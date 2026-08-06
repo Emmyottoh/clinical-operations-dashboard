@@ -1,33 +1,41 @@
-<img width="1320" height="365" alt="Clinical_Hospital_Dashboard_2" src="https://github.com/user-attachments/assets/969cc7aa-8680-4e90-bf4a-6091d4a94340" />
-<img width="1322" height="557" alt="Clinical_Hospital_Dashboard_1" src="https://github.com/user-attachments/assets/449e6760-a773-4d2a-aada-3892bfd1d797" />
-# 🏥 Clinical & Hospital Operations Executive Insights Report
+# 🏥 Clinical Operations & Patient Capacity Analytics Suite
+<img width="1322" height="557" alt="Clinical_Hospital_Dashboard_1" src="https://github.com/user-attachments/assets/196b34d6-d801-4510-bc58-9c6af48924ff" />
 
-## 📌 Executive Summary
-An end-to-end data audit, data cleansing, and multi-dimensional analysis were conducted across **5,000 unique patient records** to evaluate hospital operational efficiency, bed capacity, patient acuity, and resource allocation.
+## 📌 Project Overview
+Healthcare facilities regularly face operational challenges such as prolonged patient wait times, imbalanced bed occupancy, high emergency department throughput, and resource allocation bottlenecks.
 
-The primary objective was to eliminate data quality issues, aggregate operational metrics into structured Pivot Table frameworks, and build a dynamic **Executive Dashboard** that drives data-informed decisions for hospital management.
+This project delivers an end-to-end clinical operations analytics suite analyzing **5,000 patient records**. Built on a **5-block Pivot Table architecture**, this dynamic dashboard gives hospital administrators and departmental leads real-time visibility into bed utilization, emergency resource demands, length of stay (LOS), and patient throughput.
 
+---
 
-## 🛠️ Phase 1: Data Engineering & Cleansing Lifecycle
+## 🎯 Key Business & Operational Objectives
+* **Wait Time & Throughput Optimization:** Identify bottlenecks in patient admission, triage, and discharge workflows to reduce emergency room wait times.
+* **Bed Occupancy & Capacity Management:** Track utilization rates across ICU, General Ward, and Specialty units to prevent capacity overload.
+* **Length of Stay (LOS) Analysis:** Evaluate average length of stay across medical departments to streamline patient discharge planning.
+* **Emergency Resource Demand Planning:** Map peak admission hours and seasonal admission trends to optimize clinical staffing schedules.
 
-### Key Cleansing Interventions:
-* **Deduplication & Integrity:** Removed duplicate entries to establish a clean, verified baseline of 5,000 unique patient admissions.
-* **Standardization & Text Normalization:** Consolidated redundant categorical labels across patient demographics, admission types, and disease classifications to avoid fragmented reporting.
-* **Missing Value Treatment:** Imputed missing values with business logic rules (replacing non-applicable/blank numeric fields with 0 and missing categoricals with "Unknown") to preserve sample size while avoiding bias.
-* **Metric Derivation:** Formatted and structured fields for Length of Stay (LOS), ICU Bed Occupancy, and Oxygen Demand to enable precise KPI card and chart aggregation.
+---
 
+## 🧹 Data Cleaning & Architecture
+* **Dataset Audit:** Processed and audited 5,000 clinical admission records for missing values, timestamps, and diagnostic category accuracy.
+* **5-Block Pivot Table Architecture:** Structured underlying data into 5 modular analytical pivot blocks to enable fast, dynamic Excel slicing and aggregation.
+* **Data Integrity Checks:** Standardized patient age brackets, admission types, and unit allocation logs to ensure reporting precision.
 
-## 📊 Phase 2: Pivot Table Mapping & Multi-Dimensional Aggregation
+---
 
-| Analysis Focus | Core Metrics Aggregated | Business Value Delivered |
-| :--- | :--- | :--- |
-| Demographics & Acuity | Patient Count, Gender, Age Distribution | Identifies primary care demographic profiles |
-| Bed Utilization & LOS | Avg Length of Stay (Days), ICU Bed-Days | Highlights capacity bottlenecks by severity grade |
-| Intake Volatility | Admissions by Season & Admission Type | Informs dynamic seasonal staffing models |
-| Resource Consumption | Oxygen Consumption (Units/Patient) | Pinpoints emergency allocation & inventory needs |
+## 💡 Key Clinical Insights
+* **Peak Emergency Flow:** Emergency department admissions spike significantly during late afternoon and weekend shifts, requiring dynamic shift coverage adjustments.
+* **Specialty Length-of-Stay Variances:** Surgical and ICU wards demonstrate the highest average length of stay (LOS), representing primary drivers of bed availability bottlenecks.
+* **Capacity Stress Points:** ICU bed occupancy operates near maximum capacity during mid-week cycles, highlighting a need for proactive step-down care transfer protocols.
 
+---
 
-## 💡 Key Strategic Business Insights
-1. **High-Acuity Bed Bottlenecks:** Critical patients average **20.0 days per stay** (4x baseline). Combined with Severe intake (~29% of volume), they consume **over 65% of total bed-days**.
-2. **Summer Intake Surge:** Summer recorded **2,077 admissions (41.5% of annual intake)**, indicating urgent demand for seasonal surge capacity.
-3. **Emergency Resource Allocation:** Emergency admissions consumed nearly **2x more oxygen per capita (~72.2 units/patient)** than standard inpatients (~38.1 units/patient).
+## 🛠️ Tools & Technologies Used
+* **Microsoft Excel:** Advanced Formulas, Dynamic Dashboards, 5-Block Pivot Table Architecture
+* **Power Query / SQL:** Data Cleansing, Transformation, & Aggregation
+* **GitHub:** Portfolio Documentation & Version Control
+
+---
+
+## 📊 Clinical Operations Dashboard Preview
+<img width="1320" height="365" alt="Clinical_Hospital_Dashboard_2" src="https://github.com/user-attachments/assets/466c89c9-3d77-43c8-a499-dd21d33be0f7" />
