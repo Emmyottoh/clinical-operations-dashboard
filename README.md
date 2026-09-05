@@ -1,41 +1,28 @@
-# 🏥 Clinical Operations & Patient Capacity Analytics Suite
+# Clinical Operations & Patient Care Analytics Suite
+
+## Project Overview
+Healthcare administrators and operational directors require real-time visibility into hospital capacity, patient admission flows, and department treatment efficiency to optimize resource allocation and reduce operational bottlenecks[cite: 2]. This project provides an interactive clinical intelligence dashboard designed to monitor patient flows, bed occupancy rates, average length of stay (ALOS), and departmental wait times[cite: 2].
+
 <img width="1322" height="557" alt="Clinical_Hospital_Dashboard_1" src="https://github.com/user-attachments/assets/196b34d6-d801-4510-bc58-9c6af48924ff" />
 
-## 📌 Project Overview
-Healthcare facilities regularly face operational challenges such as prolonged patient wait times, imbalanced bed occupancy, high emergency department throughput, and resource allocation bottlenecks.
+## Technical Stack & Tools
+* **Business Intelligence & Visualization:** Power BI Desktop, Custom KPI Cards, Interactive Drill-Throughs[cite: 2]
+* **Data Engineering & ETL:** SQL, Power Query, Data Cleaning, Patient Data Normalization[cite: 1, 2]
+* **Spreadsheets & Data Science:** Microsoft Excel, Python Exploratory Data Analysis[cite: 1, 2]
+* **Core Competencies:** Analytical Skills, Statistics, Healthcare Data Modeling, Operations Analytics, Executive Communication[cite: 2]
 
-This project delivers an end-to-end clinical operations analytics suite analyzing **5,000 patient records**. Built on a **5-block Pivot Table architecture**, this dynamic dashboard gives hospital administrators and departmental leads real-time visibility into bed utilization, emergency resource demands, length of stay (LOS), and patient throughput.
+## Key Features & Business Impact
+* **Operational Bottleneck Tracking:** Processed complex hospital operational records to analyze patient admission throughput, bed occupancy percentages, and treatment duration statistics[cite: 2].
+* **Resource Optimization Data Modeling:** Developed interactive visual indicators using **Power BI** and **Data Modeling** to evaluate emergency department wait times, physician workload distribution, and discharge efficiency[cite: 2].
+* **Statistical Demographics & Readmission Risk:** Conducted **Statistics**-backed demographic analyses evaluating patient readmission rates across age brackets and diagnostic categories[cite: 2].
+* **Executive Decision Support:** Formatted high-contrast dashboard views enabling hospital leadership to make data-driven decisions regarding staffing and bed capacity management[cite: 2].
 
----
+## Data Pipeline & Methodology
+1. **ETL & Data Cleaning:** Cleaned and formatted raw clinical logs using **SQL** and **Power Query** to align date timestamps, admission flags, and diagnostic codes[cite: 1, 2].
+2. **Data Modeling:** Built relational models connecting patient demographics, department assignments, and length of stay metrics[cite: 2].
+3. **Stakeholder Reporting:** Formatted cross-filtering layouts to present complex healthcare metrics in an intuitive format for executive **Communication**[cite: 2].
 
-## 🎯 Key Business & Operational Objectives
-* **Wait Time & Throughput Optimization:** Identify bottlenecks in patient admission, triage, and discharge workflows to reduce emergency room wait times.
-* **Bed Occupancy & Capacity Management:** Track utilization rates across ICU, General Ward, and Specialty units to prevent capacity overload.
-* **Length of Stay (LOS) Analysis:** Evaluate average length of stay across medical departments to streamline patient discharge planning.
-* **Emergency Resource Demand Planning:** Map peak admission hours and seasonal admission trends to optimize clinical staffing schedules.
-
----
-
-## 🧹 Data Cleaning & Architecture
-* **Dataset Audit:** Processed and audited 5,000 clinical admission records for missing values, timestamps, and diagnostic category accuracy.
-* **5-Block Pivot Table Architecture:** Structured underlying data into 5 modular analytical pivot blocks to enable fast, dynamic Excel slicing and aggregation.
-* **Data Integrity Checks:** Standardized patient age brackets, admission types, and unit allocation logs to ensure reporting precision.
-
----
-
-## 💡 Key Clinical Insights
-* **Peak Emergency Flow:** Emergency department admissions spike significantly during late afternoon and weekend shifts, requiring dynamic shift coverage adjustments.
-* **Specialty Length-of-Stay Variances:** Surgical and ICU wards demonstrate the highest average length of stay (LOS), representing primary drivers of bed availability bottlenecks.
-* **Capacity Stress Points:** ICU bed occupancy operates near maximum capacity during mid-week cycles, highlighting a need for proactive step-down care transfer protocols.
-
----
-
-## 🛠️ Tools & Technologies Used
-* **Microsoft Excel:** Advanced Formulas, Dynamic Dashboards, 5-Block Pivot Table Architecture
-* **Power Query / SQL:** Data Cleansing, Transformation, & Aggregation
-* **GitHub:** Portfolio Documentation & Version Control
-
----
-
-## 📊 Clinical Operations Dashboard Preview
 <img width="1320" height="365" alt="Clinical_Hospital_Dashboard_2" src="https://github.com/user-attachments/assets/466c89c9-3d77-43c8-a499-dd21d33be0f7" />
+
+---
+*Developed by Emmanuel Ottoh | Data Analyst & BI Developer*[cite: 1, 2]
